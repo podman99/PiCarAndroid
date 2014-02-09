@@ -49,6 +49,14 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int exit_button_text=0x7f05000b;
+        public static final int mph_surfix=0x7f05000a;
+        public static final int mph_title=0x7f050009;
+        public static final int mph_value=0x7f050008;
+        public static final int reverse_camera_description=0x7f05000c;
+        public static final int rpm_surfix=0x7f050007;
+        public static final int rpm_title=0x7f050006;
+        public static final int rpm_value=0x7f050005;
         public static final int title_section1=0x7f050002;
         public static final int title_section2=0x7f050003;
         public static final int title_section3=0x7f050004;

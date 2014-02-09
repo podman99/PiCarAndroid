@@ -8,6 +8,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DashboardActivity$DummySectionFragment" >
 
+    
+
+    
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -16,7 +19,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="39dp"
         android:layout_marginTop="21dp"
-        android:text="RPM"
+        android:text="@string/rpm_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -27,7 +30,7 @@
         android:layout_alignBottom="@+id/textView1"
         android:layout_marginLeft="145dp"
         android:layout_toRightOf="@+id/textView1"
-        android:text="0"
+        android:text="@string/rpm_value"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -38,7 +41,7 @@
         android:layout_alignBottom="@+id/rpmValue"
         android:layout_marginLeft="27dp"
         android:layout_toRightOf="@+id/rpmValue"
-        android:text="revs"
+        android:text="@string/rpm_surfix"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -48,7 +51,7 @@
         android:layout_alignLeft="@+id/rpmValue"
         android:layout_below="@+id/rpmValue"
         android:layout_marginTop="39dp"
-        android:text="0"
+        android:text="@string/mph_value"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -58,7 +61,7 @@
         android:layout_alignBaseline="@+id/mphValue"
         android:layout_alignBottom="@+id/mphValue"
         android:layout_alignLeft="@+id/textView2"
-        android:text="mph"
+        android:text="@string/mph_surfix"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -68,7 +71,7 @@
         android:layout_alignBaseline="@+id/mphValue"
         android:layout_alignBottom="@+id/mphValue"
         android:layout_toLeftOf="@+id/rpmValue"
-        android:text="MPH"
+        android:text="@string/mph_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -78,7 +81,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="19dp"
-        android:text="Button"
-        android:onClick="closeApp" />
+        android:onClick="closeApp"
+        android:text="@string/exit_button_text" />
 
 </RelativeLayout>

@@ -24,6 +24,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/videoView1"
         android:layout_marginTop="17dp"
-        android:text="Reversing Camera Video is below" />
+        android:text="@string/reverse_camera_description" />
 
 </RelativeLayout>

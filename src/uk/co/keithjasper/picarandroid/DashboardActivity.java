@@ -1,8 +1,6 @@
 package uk.co.keithjasper.picarandroid;
 
 import java.util.Locale;
-import java.util.Random;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
