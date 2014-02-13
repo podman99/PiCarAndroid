@@ -1,6 +1,9 @@
 package uk.co.keithjasper.picarandroid;
 
 import java.util.Locale;
+
+import org.codeandmagic.android.gauge.GaugeView;
+
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.os.Handler;
@@ -47,6 +50,7 @@ public class DashboardActivity extends FragmentActivity {
 		mViewPager = (ViewPager) findViewById(R.id.pager);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
 
+		GaugeView gauge = new GaugeView(this);
 	}
 
 	@Override
